@@ -1,0 +1,28 @@
+{
+  "name": "Google meet picture in picture",
+  "version": "1.0",
+  "description": "Picture in picture google meet people videos",
+  "permissions": [
+    "storage",
+    "declarativeContent",
+    "activeTab",
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "100": "images/icons8-picture-in-picture-100.png"
+    }
+  },
+  "icons": {
+      "100": "images/icons8-picture-in-picture-100.png"
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
+}

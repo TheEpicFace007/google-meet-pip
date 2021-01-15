@@ -1,0 +1,6 @@
+node_modules/
+*.zip
+background.js.map
+background.js
+popup.js
+popup.js.map

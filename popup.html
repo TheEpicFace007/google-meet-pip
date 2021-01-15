@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <style>
+    :root {
+      --custom-btn-color: #01C5AE;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      flex-basis: auto;
+      height: 140px;
+      width: 300px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    button,
+    input {
+      align-self: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: "Roboto", sans-serif;
+      align-self: center;
+      margin: 8px 5px;
+    }
+
+    #name {
+      margin-bottom: 20px;
+    }
+
+    #toggle-pip {
+      width: 120px;
+    }
+
+    #button-place {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      /* flex-basis: auto; */
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  </style>
+</head>
+
+<body>
+  <p>If the picture in picture video is frozen, quit the picture and picture
+  and re-enable it.</p>
+  <hr class="dropdown-divider">
+  <div id="button-place">
+    <button class="btn btn-outline-primary" id="enable-pip">Enable pip</button>
+    <!-- <button class="btn btn-secondary" id="disable-pip">Disable pip</button> -->
+  </div>
+  <!--  <p>You can enter a name of someone you wish to pipcture in picture on. You can leave it
+    blank if you wish to focus to automatically on someone.</p>
+  <input type="text" name="" id="name" class="form-control" placeholder="Person to focus on"> -->
+  <script onloadeddata="true" src="popup.js"></script>
+</body>
+
+</html>
