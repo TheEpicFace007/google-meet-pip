@@ -1,5 +1,5 @@
 {
-  "name": "pip-google-meet",
+  "name": "google-meet-pip",
   "version": "1.0.0",
   "description": "",
   "main": "background.js",
